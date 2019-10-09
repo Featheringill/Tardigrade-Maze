@@ -1,0 +1,56 @@
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 2100px;
+    
+}
+
+.rows {
+    display: flex;
+    flex-direction: row;
+     /* height: 100px; */
+    width: 2100px; 
+}
+
+.wall {
+    flex-direction: column;
+    background-color: seagreen;
+    width:100px;
+    height:100px;
+}
+
+.openSpace {
+    flex-direction: column;
+    background-color: skyblue;
+    width:100px;
+    height:100px;
+}
+
+.finish {
+    flex-direction: column;
+    background-color: yellow;
+    width:100px;
+    height:100px;
+}
+
+.start {
+    flex-direction: column;
+    background-color: ;
+    width:100px;
+    height:100px;
+}
+
+#tardigrade {
+   
+    width: 100px;
+    height: 100px;
+    background-image:  url("tardigrade.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1000;
+   
+}
+
